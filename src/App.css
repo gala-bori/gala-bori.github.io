@@ -1,0 +1,52 @@
+body {
+	background: #677983;
+	color: #ffffff;
+}
+
+.movie-app>.row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+.home-container {
+	padding: 20px;
+	text-align: center;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: normal;
+}
+
+.nav-links a,
+.nav-links span {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.logout-btn {
+	padding: 0.25rem 0.5rem;
+	font-size: 2.875rem;
+	line-height: 1.5;
+	border-radius: 3rem;
+}
+
+.searchbox {
+	height: 20px;
+}
+
+.register-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.searchbox-wide {
+	width: 500px;
+}
+
+.bold-link {
+	font-weight: bold;
+}
